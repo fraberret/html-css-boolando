@@ -95,6 +95,10 @@
     
 }
 
+:hover.heart_square{
+    color: var(--zala-accent);
+}
+
 .item_description{
     position: absolute;
     top: 100%;
@@ -192,3 +196,4 @@
 span{
     padding-right: 5px;
 }
+/* #endregion footer */
