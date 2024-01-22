@@ -139,6 +139,29 @@
     background-image: url(/assets/img/6.webp);
 }
 
+/* hover img */
+:hover.levis_first{
+    background-image: url(/assets/img/1b.webp);
+}
+:hover.guess{
+    background-image: url(/assets/img/2b.webp);
+}
+
+:hover.third_item{
+    background-image: url(/assets/img/3b.webp);
+}
+
+:hover.levis_forth{
+    background-image: url(/assets/img/4b.webp);
+}
+
+:hover.long_dress{
+    background-image: url(/assets/img/5b.webp);
+}
+
+:hover.last_item{
+    background-image: url(/assets/img/6b.webp);
+}
 .bottom-left{
     left: 0;
 }
