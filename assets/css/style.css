@@ -44,7 +44,75 @@
 
 }
 .item{
+    
     width: 30%;
     height: 500px;
     background-color: red;
+    position: relative;
+}
+
+.red_square{
+    background-color: var(--zala-accent);
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.green_square{
+    background-color: var(--zala-sostenibility);
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 55px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heart_square{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.item_description{
+    position: absolute;
+    top: 100%;
+
+}
+
+.discount_price{
+    color: var(--zala-accent);
+}
+
+.real_price{
+    text-decoration: line-through;
+}
+
+.small{
+    font-size: 14px;
+}
+.levis_first{
+    
+    background-image: url(/assets/img/1.webp);
+    background-size: contain;
 }
