@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* #region header */
@@ -105,6 +106,10 @@
 
 }
 
+.object{
+    
+}
+
 .discount_price{
     color: var(--zala-accent);
 }
@@ -190,10 +195,14 @@
 }
 
 .padding-bottom{
-    padding-bottom: 3px;
+    padding-bottom: 5px;
 }
 
 span{
     padding-right: 5px;
+}
+
+.info{
+    font-size: 12px;
 }
 /* #endregion footer */
