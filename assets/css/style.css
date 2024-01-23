@@ -21,6 +21,17 @@
     
 }
 
+ul{
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+a{
+    color: var(--zala-lighter);
+    text-decoration: none;
+}
+
 /* #region header */
 #site_header{
     background-color: var(--zala-primary);
@@ -29,7 +40,6 @@
     width: 100%;
     z-index: 1000;
     
-
 }
 
 .header_contenitor{
@@ -37,6 +47,8 @@
     height: 60px;
     
 }
+
+
 /* #endregion header */
 
 /* #region main */
@@ -45,7 +57,7 @@
 }
 .item{
     
-    width:300px;
+    width:290px;
     height: 420px;
     position: relative;
     background-size: contain;
@@ -122,53 +134,53 @@
 /* item image */
 .levis_first{
     
-    background-image: url(/assets/img/1.webp);   
+    background-image: url(../img/1.webp);   
 }
 
 .guess{
-    background-image: url(/assets/img/2.webp);  
+    background-image: url(../img/2.webp);  
 }
 
 
 .third_item{
-    background-image: url(/assets/img/3.webp);
+    background-image: url(../img/3.webp);
 }
 
 .levis_forth{
-    background-image: url(/assets/img/4.webp);
+    background-image: url(../img/4.webp);
 }
 
 .long_dress{
-    background-image: url(/assets/img/5.webp);
+    background-image: url(../img/5.webp);
 }
 
 .last_item{
-    background-image: url(/assets/img/6.webp);
+    background-image: url(../img/6.webp);
 }
 
 
 /* hover img */
 :hover.levis_first{
-    background-image: url(/assets/img/1b.webp);
+    background-image: url(../img/1b.webp);
 }
 :hover.guess{
-    background-image: url(/assets/img/2b.webp);
+    background-image: url(../img/2b.webp);
 }
 
 :hover.third_item{
-    background-image: url(/assets/img/3b.webp);
+    background-image: url(../img/3b.webp);
 }
 
 :hover.levis_forth{
-    background-image: url(/assets/img/4b.webp);
+    background-image: url(../img/4b.webp);
 }
 
 :hover.long_dress{
-    background-image: url(/assets/img/5b.webp);
+    background-image: url(../img/5b.webp);
 }
 
 :hover.last_item{
-    background-image: url(/assets/img/6b.webp);
+    background-image: url(../img/6b.webp);
 }
 .bottom-left{
     left: 0;
@@ -191,9 +203,6 @@
     padding-bottom: 5px;
 }
 
-span{
-    padding-right: 5px;
-}
 
 .info{
     font-size: 12px;
